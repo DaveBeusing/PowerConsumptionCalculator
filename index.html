@@ -16,6 +16,42 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<section>
+		<div class="pcc">
+			<h2>Power <br>Consumption <br>Calculator ⚡</h2>
+
+			<div class="pcc-input-wrap">
+				<input class="pcc-input-text" type="text" value="1" id="soh">
+				<span class="pcc-input-unit">Person(s)</span>
+				<span class="pcc-input-descriptor">Size of Household</span>
+			</div>
+
+			<div class="pcc-input-wrap">
+				<select class="pcc-input-select" id="wh">
+					<option value="550">Yes</option>
+					<option value="200" selected>No</option>
+				</select>
+				<span class="pcc-input-descriptor">Electric Waterheating</span>
+			</div>
+
+			<div class="pcc-input-wrap">
+				<input class="pcc-input-text" type="text" value="8" id="app">
+				<span class="pcc-input-unit">Appliances</span>
+				<span class="pcc-input-descriptor">Appliances in use</span>
+			</div>
+
+			<div class="pcc-input-wrap">
+				<input class="pcc-input-text" type="text" value="80" id="livingspace">
+				<span class="pcc-input-unit">m²</span>
+				<span class="pcc-input-descriptor">Living Space</span>
+			</div>
+
+			<div class="pcc-results">
+				<h3>Result</h3>
+			</div>
+			<p id="pcc-notice">Results may vary due to factors not taken into account and are intended as a general guide only.</p>
+		</div>
+	</section>
 	<script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

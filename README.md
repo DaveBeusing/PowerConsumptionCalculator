@@ -9,10 +9,10 @@ TBD
 ### Formula
 Basic consumption formular based on BdE e.v. (https://www.energieverbraucher.de/)
 
-p = number of persons in the household
-wh = base 200 kWh if waterheating is electrically 550 kWh
-app = count of large appliances used
-s = living space in m²
+<br>p = number of persons in the household
+<br>wh = base 200 kWh if waterheating is electrically 550 kWh
+<br>app = count of large appliances used
+<br>s = living space in m²
 
 Consumption = p * wh * app * 200 kWh + s * 9 kWh
 
